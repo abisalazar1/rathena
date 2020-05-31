@@ -31,9 +31,9 @@
 		#define PACKET_OBFUSCATION
 
 		// Define these inside src/custom/defines_pre.hpp or src/custom/defines_post.hpp
-		//#define PACKET_OBFUSCATION_KEY1 <key1>
-		//#define PACKET_OBFUSCATION_KEY2 <key2>
-		//#define PACKET_OBFUSCATION_KEY3 <key3>
+		#define PACKET_OBFUSCATION_KEY1 0x17F83A19
+		#define PACKET_OBFUSCATION_KEY2 0x116944F4
+		#define PACKET_OBFUSCATION_KEY3 0x1CC541E9
 
 		/// Comment this to disable warnings for missing client side encryption
 		#define PACKET_OBFUSCATION_WARN
